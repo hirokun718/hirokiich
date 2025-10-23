@@ -9,7 +9,7 @@ body {
   margin: 0;
   padding: 0;
   line-height: 1.8;
-  font-size: 17px;
+  font-size: clamp(18px, 2vw, 20px);
 }
 h1 {
   text-align: center;
@@ -101,7 +101,7 @@ h2 {
 .note {
   text-align: center;
   color: #64748b;
-  font-size: 0.9rem;
+  font-size: 0.8rem;
   margin: 15px 0 40px;
 }
 .note a {
@@ -115,11 +115,11 @@ h2 {
 .link-button {
   background: #fff;
   color: #ffffff;
-  padding: 7px 12px;
+  padding: 7px 15px;
   border-radius: 6px;
   text-decoration: none;
   font-size: 1.3rem;
-  margin: 0 3px;
+  margin: 3px;
   transition: background 0.2s;
 }
 .link-button:hover {
