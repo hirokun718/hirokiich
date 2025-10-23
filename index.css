@@ -1,0 +1,141 @@
+html {
+  font-size: 110%;
+}
+
+body {
+  font-family: "Hiragino Sans", "Noto Sans JP", sans-serif;
+  background-color: #f6f8fa;
+  color: #333;
+  margin: 0;
+  padding: 0;
+  line-height: 1.8;
+  font-size: 17px;
+}
+h1 {
+  text-align: center;
+  background: linear-gradient(135deg, #3b82f6, #60a5fa);
+  color: #fff;
+  padding: 30px 10px;
+  font-size: 2rem;
+  margin: 0;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.15);
+}
+h2 {
+  color: #1e3a8a;
+  border-left: 6px solid #3b82f6;
+  padding-left: 10px;
+  margin-top: 40px;
+  margin-bottom: 15px;
+  font-size: 1.4rem;
+}
+.name {
+  text-align: center;
+  font-weight: bold;
+  color: #2563eb;
+  font-size: 1.2rem;
+  margin-top: 25px;
+}
+.contents {
+  background: #fff;
+  margin: 30px auto;
+  padding: 30px;
+  width: 90%;
+  max-width: 800px;
+  border-radius: 16px;
+  box-shadow: 0 4px 15px rgba(0,0,0,0.05);
+}
+.activity-box {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  justify-content: space-between;
+  background-color: #f1f5f9;
+  border-radius: 12px;
+  padding: 20px;
+  margin-bottom: 30px;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+}
+.activity-box p {
+  flex: 1 1 60%;
+  margin: 0;
+}
+.activity-box img {
+  flex: 1 1 120px;
+  border-radius: 10px;
+  margin-left: 20px;
+  box-shadow: 0 3px 6px rgba(0,0,0,0.1);
+}
+.section-title {
+  background: #e0f2fe;
+  border-left: 5px solid #38bdf8;
+  padding: 8px 12px;
+  margin-top: 25px;
+  font-weight: bold;
+  color: #0369a1;
+  border-radius: 4px;
+}
+.contents img {
+  margin: 10px;
+  border-radius: 10px;
+  box-shadow: 0 3px 8px rgba(0,0,0,0.1);
+  transition: transform 0.2s ease;
+}
+.contents img:hover {
+  transform: scale(1.05);
+}
+.footer {
+  text-align: center;
+  background: #e2e8f0;
+  padding: 20px;
+  border-top: 2px solid #cbd5e1;
+}
+.footer a {
+  text-decoration: none;
+  color: #2563eb;
+  font-weight: bold;
+}
+.footer a:hover {
+  text-decoration: underline;
+}
+
+.note {
+  text-align: center;
+  color: #64748b;
+  font-size: 0.9rem;
+  margin: 15px 0 40px;
+}
+.note a {
+  color: #2563eb;
+  text-decoration: none;
+}
+.note a:hover {
+  text-decoration: underline;
+}
+
+.link-button {
+  background: #fff;
+  color: #ffffff;
+  padding: 7px 12px;
+  border-radius: 6px;
+  text-decoration: none;
+  font-size: 1.3rem;
+  margin: 0 3px;
+  transition: background 0.2s;
+}
+.link-button:hover {
+  background: #3b82f6;
+}
+
+@media (max-width: 768px) {
+  .activity-box {
+    flex-direction: column;
+    align-items: center;
+  }
+  .activity-box img {
+    margin: 15px 0 0;
+    width: 80%;
+  }
+  .contents {
+    padding: 20px;
+  }
+}
